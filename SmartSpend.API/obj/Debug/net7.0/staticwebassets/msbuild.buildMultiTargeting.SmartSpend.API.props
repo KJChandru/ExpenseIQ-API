@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/SmartSpend.API.props" />
+</Project>

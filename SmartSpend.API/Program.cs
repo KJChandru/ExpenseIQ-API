@@ -39,13 +39,13 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey!))
     };
 });
-
+https://smartexpensedev.netlify.app/login
 // 3. CORS Policy (for Angular frontend)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
     {
-        policy.WithOrigins("http://localhost:4200") // Angular default port
+        policy.WithOrigins("https://smartexpensedev.netlify.app") // Angular default port
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials(); // needed if using cookies/tokens

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartSpend.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d04b0d5848015be4f7ae0ddbbb6e405c7d41ceaf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartSpend.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartSpend.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
